@@ -209,6 +209,37 @@ span {
     right: 10px;
     top: -14px;
 }
+@media screen and (min-width: 768px) {
+    #contatos {
+        padding: 40px 10px;
+    }
+    #contatos h2, #contatos p {
+        text-align: center;
+        background-color: #604829;
+        color: #fff;
+        padding: 20px 30px;
+        max-width: 700px;
+    }
+    iframe {
+        width: 90%;
+        max-width: 1024px;
+    }
+    #horarios li h3, #horarios li p, #horarios li span {
+        width: 100px;
+        text-align: left;
+    }
+    #horarios li p, #horarios li span {
+        text-align: right;
+        font-size: 16px;
+    }
+    #horarios h2 {
+        font-size: 1.5em;
+    }
+    hr {
+        width: 400px;
+        max-width: 400px;
+    }
+}
 @media screen and (min-width: 1024px) {
     #cabecalho {
         align-items: center;
@@ -266,26 +297,13 @@ span {
         font-size: 22px;
     }
     #contatos h2 {
-        font-size: 22px;
+        font-size: 25px;
     }
     #contatos p {
         font-size: 22px;
     }
-    #horarios h2 {
-        font-size: 1.5em;
-    }
     #horarios li h3 {
         font-size: 15px;
-    }
-    #horarios li h3, #horarios li p, #horarios li span {
-        width: 100px;
-        text-align: right;
-    }
-    #horarios li p, #horarios li span {
-        font-size: 16px;
-    }
-    hr {
-        max-width: 400px;
     }
     #rodape a img {
         width: 50px;
