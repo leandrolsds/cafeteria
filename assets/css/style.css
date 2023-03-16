@@ -152,6 +152,8 @@
 }
 iframe {
     margin: 50px 0;
+    width: 90%;
+    max-width: 1024px;
 }
 #horarios {
     background: url(../img/cafeteria.jpg) no-repeat center center / cover fixed;
@@ -219,10 +221,6 @@ span {
         color: #fff;
         padding: 20px 30px;
         max-width: 700px;
-    }
-    iframe {
-        width: 90%;
-        max-width: 1024px;
     }
     #horarios li h3, #horarios li p, #horarios li span {
         width: 100px;
