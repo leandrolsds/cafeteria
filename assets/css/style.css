@@ -34,16 +34,15 @@
     height: 0px;
     background-color: #c4a47c;
     position: absolute;
-    padding-top: 20px;
     left: 0;
     top: 65px;
-    transition: .6s;
+    transition: .5s;
     z-index: 100;
     visibility: hidden;
     overflow-y: hidden;
 }
 #menu.active #menu__lista {
-    height: 200px;
+    height: 180px;
     visibility: visible;
     overflow-y: auto;
 }
@@ -261,6 +260,7 @@ span {
     }
     #menu__lista {
         width: auto;
+        height: auto;
         background-color: transparent;
         position: relative;
         padding: 0;

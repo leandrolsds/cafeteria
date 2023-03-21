@@ -5,6 +5,7 @@
     text-decoration: none;
     border: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 body {
     margin-top: 65px;
