@@ -31,17 +31,19 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 0px;
     background-color: #c4a47c;
     position: absolute;
     padding-top: 20px;
     left: 0;
     top: 65px;
-    transition: .5s;
+    transition: .6s;
     z-index: 100;
     visibility: hidden;
     overflow-y: hidden;
 }
 #menu.active #menu__lista {
+    height: 200px;
     visibility: visible;
     overflow-y: auto;
 }
